@@ -48,6 +48,7 @@ app.use(
         response_type: "code id_token",
         audience: "https://expenses-api",
         scope: "openid profile email read:reports",
+        organization: "org_Rl8ZrXCOaCQ6ea43"
       },
    })
 );
