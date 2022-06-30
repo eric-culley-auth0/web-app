@@ -45,9 +45,9 @@ app.use(
       auth0Logout: true,
       baseURL: APP_URL,
       authorizationParams: {
-        response_type: "code id_token",
-        audience: "https://expenses-api",
-        scope: "openid profile email read:reports",
+        response_type: "code",
+        //audience: "https://expenses-api",
+        //scope: "openid profile email read:reports",
         organization: "org_Rl8ZrXCOaCQ6ea43"
       },
    })
